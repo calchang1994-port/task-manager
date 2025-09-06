@@ -8,5 +8,24 @@ button{cursor:pointer;background:var(--accent);border:none}
 ul{list-style:none;padding:0;margin:0}
 li{display:flex;justify-content:space-between;align-items:center;background:#1b1b1b;border:1px solid var(--muted);border-radius:12px;margin:8px 0;padding:10px}
 .done{opacity:.6;text-decoration:line-through}
-.badge{padding:4px 8px;border-radius:8px;background:#2d6cdf}
 .small{font-size:.9rem}
+
+.error { color: #ff6b6b; margin: 6px 0; }
+.success { color: #61d36e; margin: 6px 0; }
+.muted { opacity: .8; }
+
+button[disabled] {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.inline {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: .9rem;
+}
+
+input.invalid {
+  border-color: #ff6b6b;
+  outline: 1px solid #ff6b6b55;
+}
