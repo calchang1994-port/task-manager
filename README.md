@@ -1,7 +1,7 @@
-# Task Manager — React + Node Starter
+# Task Manager — React + Node (with logging)
 
 This project contains:
-- **backend/** Node + Express + MongoDB + JWT
+- **backend/** Node + Express + MongoDB + JWT (with request logging + error logs)
 - **frontend-react/** React (Vite) app that consumes the API
 
 ## Quickstart
